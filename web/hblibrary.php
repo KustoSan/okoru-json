@@ -1,6 +1,7 @@
 <?php
 
 $user = $_GET['user'];
-$rest_json = file_get_contents("https://hummingbird.me/api/v1/users/$user/library?status=completed"); echo $rest_json;
+$status = $_GET['status'];
+$rest_json = file_get_contents("https://hummingbird.me/api/v1/users/$user/library?status=$status"); echo $rest_json;
 
 ?>
