@@ -1,4 +1,5 @@
 <?php
+header('Access-Control-Allow-Origin: http://kustosan.github.io');
 
 $user = $_GET['user'];
 $status = $_GET['status'];
