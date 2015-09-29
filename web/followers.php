@@ -1,7 +1,6 @@
 <?php
 
-header('Access-Control-Allow-Origin: http://kustosan.github.io');
-header('Access-Control-Allow-Origin: https://kustosan.github.io');
+header('Access-Control-Allow-Origin: http://kustosan.github.io https://kustosan.github.io');
 
 $user = $_GET['user'];
 $page = $_GET['page'];
